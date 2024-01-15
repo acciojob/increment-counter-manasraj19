@@ -4,7 +4,7 @@ let IncrementButton = document.getElementById("incrementBtn");
 let counterValue = 0;
 
 function incrementCounter(){
-	alert("un-incremented value" + counterValue);
+	alert(counterValue);
 	counterValue++;
 	counterElem.textContent = counterValue;
 	
